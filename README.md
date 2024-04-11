@@ -18,7 +18,7 @@ This repository serves as a centralized hub for sharing, discovering, and organi
 
 Contributions to this repository are welcome! Here's how you can contribute:
 
-- **Adding Setups:** If you have a setup you'd like to share, simply create your setup add it to the appropriate car + track folder
+- **Adding Setups:** If you have a setup you'd like to share, simply create your setup add it to the appropriate car + track folder and create a pull request
 - **Improving Setups:** Feel free to suggest improvements or optimizations to existing setups by opening an issue.
 - **Reporting Issues:** If you encounter any issues or have suggestions for the repository, please open an issue to let us know.
 
