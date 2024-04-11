@@ -34,6 +34,11 @@ To use the setups shared in this repository:
 
 The setups shared in this repository are provided as-is and may not suit every driving style or skill level. Use them at your own discretion.
 
+## Credits
+
+Some of the published setups come from:
+- [Fri3d0lf](https://www.youtube.com/@Fri3d0lf)
+
 ---
 
 Happy racing! If you have any questions or suggestions, feel free to reach out.
