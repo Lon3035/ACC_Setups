@@ -8,7 +8,7 @@ This repository serves as a centralized hub for sharing, discovering, and organi
 
 ## Folder Structure
 
-- **Setups/**
+- **Setups**
   - This directory contains all the setups organized by cars and tracks.
   - The structure mirrors the structure of the documents/assetto corsa competizione/setups directory
   - Each car has its own folder containing his own folder for each track with the setups of the specified track in it
@@ -18,6 +18,10 @@ This repository serves as a centralized hub for sharing, discovering, and organi
 
 Contributions to this repository are welcome! Here's how you can contribute:
 
+**if you have no Git expirience just open an issue and request a specific setup that should be added**
+
+else:
+
 - **Adding Setups:** If you have a setup you'd like to share, simply create your setup add it to the appropriate car + track folder and create a pull request
 - **Improving Setups:** Feel free to suggest improvements or optimizations to existing setups by opening an issue.
 - **Reporting Issues:** If you encounter any issues or have suggestions for the repository, please open an issue to let us know.
@@ -25,6 +29,10 @@ Contributions to this repository are welcome! Here's how you can contribute:
 ## Usage
 
 To use the setups shared in this repository:
+
+Just clone this repository into your **documents/Assetto Corsa Competizione/setups** directory, and you'll have all setups from this collection
+
+alternatively
 
 1. Navigate to the desired track folder within the `Setups` directory.
 2. Download the JSON file corresponding to the setup you want to use.
