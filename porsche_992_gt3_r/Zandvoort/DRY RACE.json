@@ -1,0 +1,86 @@
+{
+	"carName": "porsche_992_gt3_r",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 46, 61, 37, 46 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 2, 0, 2 ],
+			"toe": [ 25, 25, 45, 45 ],
+			"staticCamber": [ -4.6068058013916016, -4.3925366401672363, 0.25121599435806274, 0.46421137452125549 ],
+			"toeOutLinear": [ 0.00032016975455917418, 0.00032021652441471815, -0.0069030043669044971, -0.0069031044840812683 ],
+			"casterLF": 30,
+			"casterRF": 30,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 5,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 7,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 33,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 46, 61, 37, 46 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 2.9000000953674316
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 3,
+			"wheelRate": [ 2, 2, 0, 0 ],
+			"bumpStopRateUp": [ 9, 9, 1, 1 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 8, 8, 4, 4 ],
+			"brakeTorque": 20,
+			"brakeBias": 30
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 8, 8, 8, 8 ],
+			"bumpFast": [ 4, 4, 3, 3 ],
+			"reboundSlow": [ 5, 5, 7, 7 ],
+			"reboundFast": [ 6, 6, 7, 7 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 11, 14, 18 ],
+			"rodLength": [ 36.025058746337891, 36.025058746337891, -59.272392272949219, -59.272392272949219 ],
+			"splitter": 0,
+			"rearWing": 12,
+			"brakeDuct": [ 3, 4 ]
+		},
+		"drivetrain":
+		{
+			"preload": 14
+		}
+	},
+	"trackBopType": 37
+}
