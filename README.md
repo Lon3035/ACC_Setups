@@ -48,6 +48,7 @@ Some of the published setups come from:
 
 - [Fri3d0lf](https://www.youtube.com/@Fri3d0lf)
 - [OhneSpeed](https://www.youtube.com/@ohne_speed)
+- [Temetias](https://github.com/Temetias/acc-sets)
 
 ---
 
