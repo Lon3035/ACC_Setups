@@ -10,7 +10,7 @@ This repository serves as a centralized hub for sharing, discovering, and organi
 
 - **Setups**
   - This directory contains all the setups organized by cars and tracks.
-  - The structure mirrors the structure of the **documents/Assetto Corsa Competizione/setups** directory
+  - The structure mirrors the structure of the `documents/Assetto Corsa Competizione/setups` directory
   - Each car has its own folder containing his own folder for each track with the setups of the specified track in it
   - Setups are stored as JSON files.
 
@@ -30,7 +30,7 @@ else:
 
 To use the setups shared in this repository:
 
-Just clone this repository into your **documents/Assetto Corsa Competizione/setups** directory, and you'll have all setups from this collection
+**Just clone this repository into your `documents/Assetto Corsa Competizione/setups` directory, and you'll have all setups from this collection**
 
 alternatively
 
