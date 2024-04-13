@@ -16,7 +16,12 @@ This repository serves as a centralized hub for sharing, discovering, and organi
 
 ## Contributing
 
-Contributions to this repository are welcome! Here's how you can contribute:
+Contributions to this repository are welcome! 
+
+### Rules 
+- Please do not add paid setups, it would not be fair to publish them
+
+### How to contribute:
 
 **if you have no Git experience just open an issue and request a specific setup that should be added**
 
@@ -27,6 +32,7 @@ else:
 - **Reporting Issues:** If you encounter any issues or have suggestions for the repository, please open an issue to let us know.
 
 ## Usage
+
 
 To use the setups shared in this repository:
 
