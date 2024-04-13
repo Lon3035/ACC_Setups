@@ -1,0 +1,86 @@
+{
+	"carName": "nissan_gt_r_gt3_2018",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 56, 54, 51, 50 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 10, 10, 10, 10 ],
+			"staticCamber": [ -3.361142635345459, -3.3625049591064453, -2.9961757659912109, -2.9968805313110352 ],
+			"toeOutLinear": [ -0.00036372302565723658, -0.00036372794420458376, 0.0002569686621427536, 0.00025697622913867235 ],
+			"casterLF": 25,
+			"casterRF": 25,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 3,
+			"tC2": 0,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 15,
+			"nPitStops": 0,
+			"tyreSet": 10,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 120,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 61, 61, 58, 59 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 4.25
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 4,
+			"wheelRate": [ 2, 2, 3, 3 ],
+			"bumpStopRateUp": [ 8, 8, 5, 5 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 20, 20, 25, 25 ],
+			"brakeTorque": 20,
+			"brakeBias": 38
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 27, 27, 16, 16 ],
+			"bumpFast": [ 35, 35, 35, 35 ],
+			"reboundSlow": [ 36, 36, 30, 30 ],
+			"reboundFast": [ 35, 35, 35, 35 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 1, 11, 7, 18 ],
+			"rodLength": [ -3.1913070678710938, -3.1913070678710938, 0.39791738986968994, 0.39791738986968994 ],
+			"splitter": 0,
+			"rearWing": 3,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 6
+		}
+	},
+	"trackBopType": 33
+}
