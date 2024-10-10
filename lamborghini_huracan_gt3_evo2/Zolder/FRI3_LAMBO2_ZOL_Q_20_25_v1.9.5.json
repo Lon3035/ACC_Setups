@@ -1,0 +1,86 @@
+{
+	"carName": "lamborghini_huracan_gt3_evo2",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 48, 54, 45, 47 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 30, 30, 46, 46 ],
+			"staticCamber": [ -3.9366044998168945, -3.9326865673065186, -3.5943386554718018, -3.592907190322876 ],
+			"toeOutLinear": [ 0.00065285345772281289, 0.00065287505276501179, 0.00018771884788293391, 0.00018772693874780089 ],
+			"casterLF": 26,
+			"casterRF": 26,
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 3,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 48, 54, 45, 47 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.5099999904632568
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 5,
+			"wheelRate": [ 1, 1, 1, 1 ],
+			"bumpStopRateUp": [ 7, 7, 7, 7 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 10, 10, 25, 25 ],
+			"brakeTorque": 20,
+			"brakeBias": 25
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 18, 18, 20, 20 ],
+			"bumpFast": [ 15, 15, 18, 18 ],
+			"reboundSlow": [ 15, 15, 24, 24 ],
+			"reboundFast": [ 25, 25, 28, 28 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 3, 6, 18, 18 ],
+			"rodLength": [ 0.02320430614054203, 0.02320430614054203, 18.841585159301758, 18.841585159301758 ],
+			"splitter": 0,
+			"rearWing": 12,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 8
+		}
+	},
+	"trackBopType": 36
+}

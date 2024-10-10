@@ -1,0 +1,86 @@
+{
+	"carName": "bmw_m4_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 49, 53, 50, 53 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 5, 5, 10, 10 ],
+			"staticCamber": [ -4.1234278678894043, -4.120816707611084, -2.5143105983734131, -2.5123405456542969 ],
+			"toeOutLinear": [ 0.0003085822390858084, 0.00030858081299811602, 3.336926965857856e-05, 3.3372543839504942e-05 ],
+			"casterLF": 24,
+			"casterRF": 24,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 3,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 53, 50, 53 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 3.4500000476837158
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 3,
+			"wheelRate": [ 2, 2, 2, 2 ],
+			"bumpStopRateUp": [ 5, 5, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 10, 10, 35, 35 ],
+			"brakeTorque": 20,
+			"brakeBias": 15
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 22, 22, 20, 20 ],
+			"bumpFast": [ 20, 20, 18, 18 ],
+			"reboundSlow": [ 18, 18, 24, 24 ],
+			"reboundFast": [ 35, 35, 28, 28 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 11, 10, 18 ],
+			"rodLength": [ 21.760951995849609, 21.760951995849609, 3.9140214920043945, 3.9140214920043945 ],
+			"splitter": 0,
+			"rearWing": 8,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 8
+		}
+	},
+	"trackBopType": 53
+}

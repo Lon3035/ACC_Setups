@@ -1,0 +1,86 @@
+{
+	"carName": "audi_r8_lms_evo_ii",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 47, 55, 45, 52 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 25, 25, 50, 50 ],
+			"staticCamber": [ -4.1654758453369141, -4.160130500793457, -3.3195104598999023, -3.3144457340240479 ],
+			"toeOutLinear": [ 0.00048341826186515391, 0.0004834677092730999, 0.00035324273630976677, 0.00035323170595802367 ],
+			"casterLF": 24,
+			"casterRF": 24,
+			"steerRatio": 4
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 13,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 47, 55, 45, 52 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.7699999809265137
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 4,
+			"aRBRear": 2,
+			"wheelRate": [ 2, 2, 2, 2 ],
+			"bumpStopRateUp": [ 7, 7, 0, 0 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 5, 5, 14, 14 ],
+			"brakeTorque": 20,
+			"brakeBias": 32
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 22, 22, 20, 20 ],
+			"bumpFast": [ 20, 20, 18, 18 ],
+			"reboundSlow": [ 25, 25, 22, 22 ],
+			"reboundFast": [ 30, 30, 25, 25 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 9, 18 ],
+			"rodLength": [ 25.75762939453125, 25.75762939453125, 9.7490549087524414, 9.7490549087524414 ],
+			"splitter": 0,
+			"rearWing": 5,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 12
+		}
+	},
+	"trackBopType": 35
+}
