@@ -1,0 +1,86 @@
+{
+	"carName": "lexus_rc_f_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 50, 52, 49, 51 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 26, 26, 50, 50 ],
+			"staticCamber": [ -3.8245847225189209, -3.8231842517852783, -2.8630197048187256, -2.8617398738861084 ],
+			"toeOutLinear": [ 0.00031408201903104782, 0.00031409089569933712, -0.00020178838167339563, -0.00020178600971121341 ],
+			"casterLF": 30,
+			"casterRF": 30,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 0,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 50, 52, 49, 51 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 14
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 3,
+			"aRBRear": 4,
+			"wheelRate": [ 1, 1, 2, 2 ],
+			"bumpStopRateUp": [ 7, 7, 7, 7 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 12, 12, 35, 35 ],
+			"brakeTorque": 20,
+			"brakeBias": 45
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 24, 24, 18, 18 ],
+			"bumpFast": [ 20, 20, 22, 22 ],
+			"reboundSlow": [ 20, 20, 24, 24 ],
+			"reboundFast": [ 30, 30, 30, 30 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 14, 18 ],
+			"rodLength": [ 3.7652478218078613, 3.7652478218078613, -3.1436598300933838, -3.1436598300933838 ],
+			"splitter": 0,
+			"rearWing": 9,
+			"brakeDuct": [ 3, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 10
+		}
+	},
+	"trackBopType": 58
+}

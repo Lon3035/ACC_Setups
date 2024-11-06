@@ -1,0 +1,86 @@
+{
+	"carName": "mercedes_amg_gt3_evo",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 46, 48, 47, 46 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 22, 22, 54, 54 ],
+			"staticCamber": [ -3.932042121887207, -3.9306564331054688, -4.1974449157714844, -4.1981101036071777 ],
+			"toeOutLinear": [ 0.00041477417107671499, 0.00041477370541542768, 0.00036210141843184829, 0.00036247202660888433 ],
+			"casterLF": 44,
+			"casterRF": 44,
+			"steerRatio": 3
+		},
+		"electronics":
+		{
+			"tC1": 3,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 16,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 46, 48, 47, 46 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.9300000667572021
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 5,
+			"aRBRear": 6,
+			"wheelRate": [ 2, 2, 2, 2 ],
+			"bumpStopRateUp": [ 5, 5, 9, 9 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 20, 20, 25, 25 ],
+			"brakeTorque": 20,
+			"brakeBias": 15
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 7, 7, 5, 5 ],
+			"bumpFast": [ 5, 5, 4, 4 ],
+			"reboundSlow": [ 7, 7, 5, 5 ],
+			"reboundFast": [ 6, 6, 8, 8 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 13, 18 ],
+			"rodLength": [ -1.5980417728424072, -1.5980417728424072, 72.554756164550781, 72.554756164550781 ],
+			"splitter": 0,
+			"rearWing": 9,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 12
+		}
+	},
+	"trackBopType": 42
+}
