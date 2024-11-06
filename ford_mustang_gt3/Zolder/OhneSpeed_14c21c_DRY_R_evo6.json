@@ -1,0 +1,86 @@
+{
+	"carName": "ford_mustang_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 53, 62, 53, 58 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 6, 6 ],
+			"toe": [ 4, 4, 11, 11 ],
+			"staticCamber": [ -4.380913257598877, -4.3741979598999023, -2.1146161556243896, -2.1106524467468262 ],
+			"toeOutLinear": [ 0.00039186186040751636, 0.00039186302456073463, 0.00020090439647901803, 0.00020080803369637579 ],
+			"casterLF": 40,
+			"casterRF": 40,
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 6,
+			"tC2": 0,
+			"abs": 3,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 99
+		},
+		"strategy":
+		{
+			"fuel": 38,
+			"nPitStops": 0,
+			"tyreSet": 0,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 53, 62, 53, 58 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 2.4268150329589844
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 7,
+			"aRBRear": 0,
+			"wheelRate": [ 0, 0, 3, 3 ],
+			"bumpStopRateUp": [ 17, 17, 25, 25 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 32, 32, 14, 14 ],
+			"brakeTorque": 20,
+			"brakeBias": 0
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 0, 0, 1, 1 ],
+			"bumpFast": [ 11, 11, 9, 9 ],
+			"reboundSlow": [ 5, 5, 2, 2 ],
+			"reboundFast": [ 11, 11, 11, 11 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 5, 11, 30, 18 ],
+			"rodLength": [ 39.082576751708984, 39.082576751708984, -3.2439844608306885, -3.2439844608306885 ],
+			"splitter": 0,
+			"rearWing": 8,
+			"brakeDuct": [ 3, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 0
+		}
+	},
+	"trackBopType": 36
+}
