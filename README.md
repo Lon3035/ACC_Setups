@@ -27,7 +27,7 @@ Contributions to this repository are welcome!
 
 else:
 
-- **Adding Setups:** If you have a setup you'd like to share, simply create your setup, add it to the appropriate car + track folder and create a pull request
+- **Adding Setups:** If you have a setup you'd like to share, simply create your setup, add it to the appropriate car + track folder and create a pull request. Please don't create any sub-folders inside the existing track folders as these won't be visible within ACC.
 - **Improving Setups:** Feel free to suggest improvements or optimizations to existing setups by opening an issue.
 - **Reporting Issues:** If you encounter any issues or have suggestions for the repository, please open an issue to let us know.
 
