@@ -1,0 +1,52 @@
+#!/usr/bin/env nu
+
+let setups_before = ls **/*.json | length
+
+# Get all car and track combinations
+let result = ls
+| where type == "dir"
+| get name
+| each { |car|
+  ls $car
+  | where type == "dir"
+  | get name
+  | path parse
+  | each { |track|
+    {
+      path: $track,
+      lowercase_path: ($track | path join | str downcase | path parse)
+    }
+  }
+  | where { |it| $it.path != $it.lowercase_path }
+}
+| flatten
+| reduce --fold {to_rename: [], to_merge: []} { |entry, acc|
+  if ($entry.lowercase_path | path join | path exists) {
+    $acc | upsert to_merge ($acc.to_merge | append $entry)
+  } else {
+    $acc | upsert to_rename ($acc.to_rename | append $entry)
+  }
+}
+
+$result
+| get to_rename
+| each {|it|
+  mv ($it.path | path join) ($it.lowercase_path | path join)
+}
+
+$result
+| get to_merge
+| each {|it| rsync -avh --progress --remove-source-files $"($it.path | path join)/" ($it.lowercase_path | path join)}
+| print
+
+$result
+| get to_merge
+| each {|it| if (ls ($it.path | path join) | length) > 0 {print $"Folder ($it.path | path join) is not empty.. cannot delete"} else { rmdir ($it.path | path join) } }
+
+let setups_after = ls **/*.json | length
+
+print $setups_before $setups_after
+
+if setups_before != setups_after {
+  echo $"Before the changes there were ($setups_before) setups.. now there are ($setups_after)"
+}
