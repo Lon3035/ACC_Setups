@@ -1,0 +1,158 @@
+{
+  "carName": "ford_mustang_gt3",
+  "basicSetup": {
+    "tyres": {
+      "tyreCompound": 0,
+      "tyrePressure": [
+        49,
+        51,
+        50,
+        51
+      ]
+    },
+    "alignment": {
+      "camber": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "toe": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "staticCamber": [
+        -4.2583889961242676,
+        -4.2569999694824219,
+        -2.3848094940185547,
+        -2.3841636180877686
+      ],
+      "toeOutLinear": [
+        0.00049728731391951442,
+        0.00049727625446394086,
+        -0.00014060272951610386,
+        -0.00014061732508707792
+      ],
+      "casterLF": 40,
+      "casterRF": 40,
+      "steerRatio": 4
+    },
+    "electronics": {
+      "tC1": 7,
+      "tC2": 0,
+      "abs": 2,
+      "eCUMap": 0,
+      "fuelMix": 0,
+      "telemetryLaps": 5
+    },
+    "strategy": {
+      "fuel": 0,
+      "nPitStops": 0,
+      "tyreSet": 0,
+      "frontBrakePadCompound": 0,
+      "rearBrakePadCompound": 0,
+      "pitStrategy": [
+        {
+          "fuelToAdd": 0,
+          "tyres": {
+            "tyreCompound": 0,
+            "tyrePressure": [
+              49,
+              51,
+              50,
+              51
+            ]
+          },
+          "tyreSet": 2,
+          "frontBrakePadCompound": 0,
+          "rearBrakePadCompound": 0
+        }
+      ],
+      "fuelPerLap": 4.0999999046325684
+    }
+  },
+  "advancedSetup": {
+    "mechanicalBalance": {
+      "aRBFront": 4,
+      "aRBRear": 0,
+      "wheelRate": [
+        0,
+        0,
+        5,
+        5
+      ],
+      "bumpStopRateUp": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bumpStopRateDn": [
+        0,
+        0,
+        10,
+        10
+      ],
+      "bumpStopWindow": [
+        32,
+        32,
+        25,
+        25
+      ],
+      "brakeTorque": 20,
+      "brakeBias": 0
+    },
+    "dampers": {
+      "bumpSlow": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bumpFast": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "reboundSlow": [
+        11,
+        11,
+        11,
+        11
+      ],
+      "reboundFast": [
+        11,
+        11,
+        11,
+        11
+      ]
+    },
+    "aeroBalance": {
+      "rideHeight": [
+        0,
+        11,
+        22,
+        18
+      ],
+      "rodLength": [
+        33.398536682128906,
+        33.398536682128906,
+        -15.753589630126953,
+        -15.753589630126953
+      ],
+      "splitter": 0,
+      "rearWing": 8,
+      "brakeDuct": [
+        2,
+        2
+      ]
+    },
+    "drivetrain": {
+      "preload": 0
+    }
+  },
+  "trackBopType": 33
+}
