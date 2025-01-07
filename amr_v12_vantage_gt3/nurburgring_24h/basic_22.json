@@ -1,0 +1,405 @@
+{
+	"carName": "amr_v12_vantage_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 44, 44, 45, 47 ]
+		},
+		"alignment":
+		{
+			"camber": [ 0, 0, 0, 0 ],
+			"toe": [ 35, 35, 45, 45 ],
+			"staticCamber": [ -4.065129280090332, -4.065129280090332, -2.9845597743988037, -2.9831380844116211 ],
+			"toeOutLinear": [ 0.00014195051335263997, 0.00014195041148923337, 1.3903281796956435e-05, 1.3943516933068167e-05 ],
+			"casterLF": 8,
+			"casterRF": 8,
+			"steerRatio": 2
+		},
+		"electronics":
+		{
+			"tC1": 2,
+			"tC2": 0,
+			"abs": 1,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 63,
+			"nPitStops": 0,
+			"tyreSet": 3,
+			"frontBrakePadCompound": 0,
+			"rearBrakePadCompound": 0,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 44, 44, 45, 47 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				},
+				{
+					"fuelToAdd": 60,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 49, 54, 54, 55 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 0,
+					"rearBrakePadCompound": 0
+				}
+			],
+			"fuelPerLap": 14.164230346679688
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 6,
+			"aRBRear": 8,
+			"wheelRate": [ 0, 0, 4, 4 ],
+			"bumpStopRateUp": [ 0, 0, 3, 3 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 20, 20, 60, 60 ],
+			"brakeTorque": 20,
+			"brakeBias": 30
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 0, 0, 35, 35 ],
+			"bumpFast": [ 0, 0, 40, 40 ],
+			"reboundSlow": [ 30, 30, 30, 30 ],
+			"reboundFast": [ 40, 40, 40, 40 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 0, 18 ],
+			"rodLength": [ 28.251884460449219, 28.251884460449219, -14.328289031982422, -14.328289031982422 ],
+			"splitter": 0,
+			"rearWing": 10,
+			"brakeDuct": [ 4, 3 ]
+		},
+		"drivetrain":
+		{
+			"preload": 6
+		}
+	},
+	"trackBopType": 58
+}
